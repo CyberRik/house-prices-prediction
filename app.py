@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-model = joblib.load(r'E:\my stuff\house_price_pipeline.pkl')
-train_df = pd.read_csv(r'E:\my stuff\home-data-for-ml-course\train.csv')
+model = joblib.load('house_price_pipeline.pkl')
+train_df = pd.read_csv('train.csv')
 
 #preprocessing
 
